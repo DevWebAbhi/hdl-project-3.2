@@ -1,5 +1,5 @@
-CHIP Bit{
-    IN in,load;
+CHIP Bitop {
+    IN in, load;
     OUT out;
     PARTS:
     Mux(a=out, b=in, sel=load, out=muxout);
